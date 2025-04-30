@@ -4,10 +4,11 @@ import { setTheme } from 'ngx-bootstrap/utils';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { BodyareaComponent } from './bodyarea/bodyarea.component';
+import { BodyareaMainComponent } from "./bodyarea-main/bodyarea-main.component";
 
 @Component({
   standalone: true,
-  imports: [RouterOutlet, HeaderComponent, FooterComponent, BodyareaComponent],
+  imports: [RouterOutlet, HeaderComponent, FooterComponent, BodyareaComponent, BodyareaMainComponent],
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'

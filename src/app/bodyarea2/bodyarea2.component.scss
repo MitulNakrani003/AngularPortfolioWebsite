@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import '../../styles.scss';
+
+.bodyarea2-container{
+    display: flex;
+    align-items: center;
+    height: auto;
+    // padding : 10px 10px;
+    background-color: $color-medium-bg;
+    margin-left: 20px;
+    // margin-right: 20px;
+    border-radius: 20px;
+    // width: 35%;
+}
+
