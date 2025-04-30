@@ -13,13 +13,6 @@
     overflow-y: auto;
 }
 
-.scrollable-body{
-    overflow: hidden;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
 
 app-header {
     position: sticky;
