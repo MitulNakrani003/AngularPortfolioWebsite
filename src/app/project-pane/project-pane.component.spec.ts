@@ -1,0 +1,23 @@
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+
+import { ProjectPaneComponent } from './project-pane.component';
+
+describe('ProjectPaneComponent', () => {
+  let component: ProjectPaneComponent;
+  let fixture: ComponentFixture<ProjectPaneComponent>;
+
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      imports: [ProjectPaneComponent]
+    })
+    .compileComponents();
+
+    fixture = TestBed.createComponent(ProjectPaneComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});

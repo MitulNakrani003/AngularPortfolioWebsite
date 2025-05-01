@@ -5,10 +5,11 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { BodyareaComponent } from './bodyarea/bodyarea.component';
 import { BodyareaMainComponent } from "./bodyarea-main/bodyarea-main.component";
+import { ProjectareaMainComponent } from "./projectarea-main/projectarea-main.component";
 
 @Component({
   standalone: true,
-  imports: [RouterOutlet, HeaderComponent, FooterComponent, BodyareaComponent, BodyareaMainComponent],
+  imports: [RouterOutlet, HeaderComponent, FooterComponent, BodyareaComponent, BodyareaMainComponent, ProjectareaMainComponent],
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
