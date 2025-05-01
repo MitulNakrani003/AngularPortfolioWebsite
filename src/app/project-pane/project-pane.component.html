@@ -13,6 +13,13 @@
     </div>
 
     
+    <div class="technologies-container">
+        <div class="technology-badge" *ngFor="let tech of getTechList()">
+            <img class="tech-image" src="{{project.description.technologies[tech]}}" alt="Project Image" />
+            <p>{{tech}}</p>
+        </div>
+    </div>
+    
 
     <div>
 

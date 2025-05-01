@@ -14,3 +14,67 @@
     margin-bottom: 20px;
 }
 
+.technologies-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    flex-direction: row;
+    background-color: inherit;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    gap:5px
+}
+
+.technology-badge{
+    margin-left: 10px;
+    margin-right: 10px;
+    display:flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+p{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0px;
+}
+
+.projectpane-title{
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: oblique;
+}
+
+.tech-image{
+    height: 24px;
+    aspect-ratio: 1/1;
+    align-self: centre;
+}
+
+
+@media screen and (max-width: 800px) {
+    .technologies-container {
+        padding: 8px;
+        gap: 6px;
+    }
+    
+    .technology-badge {
+        margin: 3px;
+        padding: 4px 8px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .technologies-container {
+        padding: 5px;
+        gap: 4px;
+    }
+    
+    .technology-badge {
+        margin: 2px;
+        padding: 3px 6px;
+        font-size: 11px;
+    }
+}

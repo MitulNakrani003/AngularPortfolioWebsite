@@ -36,12 +36,20 @@
     box-sizing: border-box;
 }
 
+.left-area{
+    width: 100%
+}
+
+.right-area{
+    width: 100%
+}
+
 // Media query for tablets
 @media screen and (max-width: 992px) {
     .experience-container {
         padding: 15px;
         margin: 15px;
-        width: calc(100% - 30px);
+        width: calc(100% - 40px);
     }
     
     .section-heading {

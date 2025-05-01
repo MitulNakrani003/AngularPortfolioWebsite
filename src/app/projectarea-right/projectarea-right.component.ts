@@ -23,10 +23,16 @@ export class ProjectareaRightComponent {
           'html': 'https://developer.mozilla.org/en-US/docs/Web/HTML',
           'css': 'https://developer.mozilla.org/en-US/docs/Web/CSS',
           'bootstrap': 'https://getbootstrap.com/',
+          'angular2': 'https://angular.io/',
+          'typescript2': 'https://www.typescriptlang.org/',
+          'html2': 'https://developer.mozilla.org/en-US/docs/Web/HTML',
+          'css2': 'https://developer.mozilla.org/en-US/docs/Web/CSS',
+          'bootstrap2': 'https://getbootstrap.com/',
         }
       },
       imageUrl: 'https://via.placeholder.com/150',
-      link: 'https://example.com'
+      link: 'https://example.com',
+      extralink: 'https://example.com'
     },
 
     {
@@ -44,7 +50,8 @@ export class ProjectareaRightComponent {
         }
       },
       imageUrl: 'https://via.placeholder.com/150',
-      link: 'https://example.com'
+      link: 'https://example.com',
+      extralink: 'https://example.com'
     }
   ];
 }
