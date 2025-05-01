@@ -16,4 +16,32 @@
     flex-direction: row;
 }
 
+// Media query for tablets
+@media screen and (max-width: 992px) {
+    .bodyarea-container {
+        padding: 0 0px;
+    }
+}
 
+// Media query for mobile devices
+@media screen and (max-width: 800px) {
+    .bodyarea-container {
+        padding: 0 5px;
+    }
+    
+    .bodyarea-top {
+        flex-direction: column; // Stack items vertically on mobile
+        gap: 20px; // Add space between stacked elements
+    }
+}
+
+// Media query for small mobile devices
+@media screen and (max-width: 480px) {
+    .bodyarea-container {
+        padding: 0;
+    }
+    
+    .bodyarea-top {
+        gap: 20px; // Add space between stacked elements
+    }
+}

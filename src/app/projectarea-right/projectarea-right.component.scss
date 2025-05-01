@@ -3,11 +3,12 @@
 
 .projectright-container{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     height: auto;
     flex-direction: column;
+    // background-color: black;
     background-color: inherit;
     border-radius: 20px;
-    margin: 0px 0px 0px 10px;
+
+    padding-left: 10px;
+    width: 100%;
 }

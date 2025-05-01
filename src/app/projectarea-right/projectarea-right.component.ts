@@ -12,9 +12,10 @@ export class ProjectareaRightComponent {
   projectInfo = 
   [
     {
+      off: false,
       title: 'Project Title',
       description: {
-        text: 'This is a brief description of the project. It highlights the main features and functionalities of the project.',
+        text: 'This is a brief description of the project. It highlights the main features and functionalities of the project. This is a brief description of the project. It highlights the main features and functionalities of the project.',
         details: 'Detailed information about the project, including its objectives, technologies used, and any challenges faced during development.',
         technologies: {
           'angular': 'https://angular.io/',
@@ -29,9 +30,10 @@ export class ProjectareaRightComponent {
     },
 
     {
+      off: false,
       title: 'Project Title',
       description: {
-        text: 'This is a brief description of the project. It highlights the main features and functionalities of the project.',
+        text: 'This is a brief description of the project. It highlights the main features and functionalities of the project. This is a brief description of the project. It highlights the main features and functionalities of the project.',
         details: 'Detailed information about the project, including its objectives, technologies used, and any challenges faced during development.',
         technologies: {
           'angular': 'https://angular.io/',

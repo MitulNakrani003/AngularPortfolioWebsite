@@ -7,6 +7,34 @@
     height: auto;
     background-color: $color-medium-bg;
     margin-left: 20px;
-    border-radius: 20px;    
+    border-radius: 20px;   
+
+    // box-sizing: border-box;
+    // width: 100%;
 }
 
+// Media query for tablets
+@media screen and (max-width: 992px) {
+    .bodyarea2-container {
+        margin-left: 15px;
+        padding: 15px;
+    }
+}
+
+// Media query for mobile devices
+@media screen and (max-width: 768px) {
+    .bodyarea2-container {
+        margin-left: 0;
+        margin-top: 20px;
+        padding: 10px;
+        flex-direction: column; /* Stack items vertically on mobile if needed */
+    }
+}
+
+// Media query for small mobile devices
+@media screen and (max-width: 480px) {
+    .bodyarea2-container {
+        padding: 8px;
+        margin-top: 20px;
+    }
+}

@@ -14,9 +14,11 @@
     overflow: hidden;
 
     height: 390px;
-
+    width: auto;
     aspect-ratio: 1 / 1;
+    box-sizing: border-box;
 }
+
 
 .image-container img {
     object-fit: cover;
@@ -27,3 +29,33 @@
 }
 
 
+// Media query for tablets
+@media screen and (max-width: 992px) {
+    .image-container {
+        height: 220px;
+        aspect-ratio: 1/1;
+        // padding: 15px;
+        // margin-left: 15px;
+    }
+}
+
+// Media query for mobile devices
+@media screen and (max-width: 800px) {
+    .image-container {
+        height: 220px;
+        margin-left: 32%;
+
+    }
+    
+}
+
+// Media query for small mobile devices
+@media screen and (max-width: 480px) {
+    .image-container {
+        // height: 220px;
+        height: 220px;
+        margin-left: 32%;
+        // padding: 10px;
+    }
+    
+}

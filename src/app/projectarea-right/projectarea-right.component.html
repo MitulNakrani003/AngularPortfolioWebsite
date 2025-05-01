@@ -1,5 +1,5 @@
 <div class="projectright-container">
     <div *ngFor="let project of projectInfo">
-        <app-project-pane [project]="project"></app-project-pane>
+        <app-project-pane [project]="project"  *ngIf="project.off === false"></app-project-pane>
     </div>
 </div>  
