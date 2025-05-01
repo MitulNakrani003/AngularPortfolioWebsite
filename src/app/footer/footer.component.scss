@@ -108,7 +108,9 @@
 @media screen and (max-width: 768px) {
     .header-container {
         padding: 8px 5px;
-        margin: 10px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        margin-right: 20px;
     }
     
     .footer-nav {
@@ -130,8 +132,10 @@
 // Media query for small mobile devices
 @media screen and (max-width: 480px) {
     .header-container {
-        padding: 5px;
-        margin: 5px;
+        padding: 10px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        margin-right: 20px;
     }
     
     .header-text {
