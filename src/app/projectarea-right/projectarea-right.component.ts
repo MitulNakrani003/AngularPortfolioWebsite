@@ -16,7 +16,10 @@ export class ProjectareaRightComponent {
       title: 'Project Title',
       description: {
         text: 'This is a brief description of the project. It highlights the main features and functionalities of the project. This is a brief description of the project. It highlights the main features and functionalities of the project.',
-        details: 'Detailed information about the project, including its objectives, technologies used, and any challenges faced during development.',
+        details: 
+        [
+          'Detailed information about the project, including its objectives, technologies used, and any challenges faced during development.'
+        ],
         technologies: {
           'angular': 'https://angular.io/',
           'typescript': 'https://www.typescriptlang.org/',
@@ -40,7 +43,10 @@ export class ProjectareaRightComponent {
       title: 'Project Title',
       description: {
         text: 'This is a brief description of the project. It highlights the main features and functionalities of the project. This is a brief description of the project. It highlights the main features and functionalities of the project.',
-        details: 'Detailed information about the project, including its objectives, technologies used, and any challenges faced during development.',
+        details: 
+        [
+          'Detailed information about the project, including its objectives, technologies used, and any challenges faced during development.'
+        ],
         technologies: {
           'angular': 'https://angular.io/',
           'typescript': 'https://www.typescriptlang.org/',

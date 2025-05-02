@@ -23,7 +23,7 @@
     background-color: inherit;
     border-radius: 20px;
     flex-wrap: wrap;
-    gap:5px
+    gap:7px
 }
 
 .technology-badge{
@@ -40,16 +40,33 @@ p{
     margin-bottom: 0px;
 }
 
+a{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0px;
+    text-decoration: none;
+}
+
+
 .projectpane-title{
     font-size: 26px;
     font-family: 'Montserrat', sans-serif;
     font-style: oblique;
 }
 
+.projectpane-head{
+    margin-bottom: 20px;
+}
+
 .tech-image{
     height: 24px;
     aspect-ratio: 1/1;
     align-self: centre;
+}
+
+.projectpane-details-container{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 

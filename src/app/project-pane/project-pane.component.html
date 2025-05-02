@@ -1,5 +1,5 @@
 <div class="projectpane-container">
-    <div>
+    <div class="projectpane-head">
         <p>
             <span class="projectpane-title">
                 {{project.title}}
@@ -21,10 +21,17 @@
     </div>
     
 
-    <div>
-
+    <div class="projectpane-details-container">
+        <p class="projectpane-details" *ngFor="let detail of project.description.details">
+            <span>
+                &rarr; {{detail}}
+            </span>
+        </p>
     </div>
-    <div>
 
+    <div>
+        <!-- <img class="tech-image-github" src="githublogo.svg" alt="Project Image" /> -->
+        <i class="fa fa-github" style="font-size:16px"></i>
+        <a href="{{project.link}}" target="_blank"><span> GITHUB LINK &nearr;</span></a>
     </div>
 </div>  
